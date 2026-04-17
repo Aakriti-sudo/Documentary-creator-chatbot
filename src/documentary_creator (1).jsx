@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const API_KEY = " ";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const SYSTEM_PROMPT = `You are an AI Documentary Creator assistant — a specialized storytelling guide that helps filmmakers, journalists, and content creators craft compelling documentaries.
 
